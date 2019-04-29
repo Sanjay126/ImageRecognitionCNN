@@ -10,7 +10,7 @@ from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
 from keras.layers import BatchNormalization 
 from keras.optimizers import SGD,RMSprop,adam
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 
 class model(object):
