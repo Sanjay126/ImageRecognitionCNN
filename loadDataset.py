@@ -8,7 +8,7 @@ from keras import backend as K
 K.set_image_dim_ordering('tf')
 from sklearn.utils import shuffle
 from keras.preprocessing.image import ImageDataGenerator
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 class loadDataset(object):
 	def __init__(self,tp):
